@@ -1,6 +1,6 @@
 def login(username, password):
     try:
-        assert username == "me" and password == "1223"
+        assert username == "me" and password == "1224"
         print("Вхід виконано успішно")
     except AssertionError:
         print("Невірне ім'я користувача або пароль")
